@@ -27,13 +27,14 @@ car-rental-system/
 │  │   ├─ carController.js
 │  │   └─ rentalController.js
 │  ├─ routes/          # API routes
-│  │   ├─ cars.js
-│  │   └─ rental.js
+│  │   ├─ carsRoutes.js
+│  │   └─ rentalRoutes.js
 │  ├─ server.js        # Entry point
 │  └─ .env             # Environment variables (DB_URL, PORT)
 ├─ client/             # Frontend (ReactJS + TailwindCSS)
 │  ├─ src/
 │  │   ├─ components/  # Components (CarList, RentCarForm, CancelRentalForm)
+│  │   ├─ pages/       # Pages
 │  │   └─ App.jsx      # App routing
 │  └─ package.json
 └─ README.md
